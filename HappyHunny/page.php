@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main id="main" class="site-main">
-
+<div class="container">
   <?php
     // Start the loop
     while (have_posts()) :
@@ -12,6 +12,7 @@
 
     endwhile; // End of the loop.
   ?>
+    </div>
 
 </main><!-- #main -->
 

@@ -1,9 +1,9 @@
 <?php
 /**
- * Add WooCommerce support to the theme.
+ *
  *
  * @package WordPress
- * @subpackage Your_Theme_Name
+ * @subpackage HappyHunny
  * @since 1.0
  * @version 1.0
  */
