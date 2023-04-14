@@ -54,13 +54,13 @@
                     
                  <div class="woo-menu">
                 
-                <a href="#" class="woo-profile">
+                <a href="/my-account/" class="woo-profile">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-account.png" >
                     </a>
                     <a href="#" class="woo-wishlist">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-favourites.png" >
                     </a>
-                     <a href="#" class="woo-cart">
+                     <a href="/cart/" class="woo-cart">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-bag.png" >
                     </a>
                 

@@ -9,10 +9,10 @@
  */
 
 
-function yourtheme_enqueue_styles() {
-    wp_enqueue_style( 'yourtheme-style', get_stylesheet_uri() );
+function HH_enqueue_styles() {
+    wp_enqueue_style( 'HH-style', get_stylesheet_uri() );
 }
-add_action( 'wp_enqueue_scripts', 'yourtheme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'HH_enqueue_styles' );
 
 
 
@@ -43,7 +43,7 @@ add_action( 'after_setup_theme', 'HH_setup' );
 /**
  * Declare WooCommerce support.
  */
-function your_theme_name_add_woocommerce_support() {
+function HH_name_add_woocommerce_support() {
   add_theme_support('woocommerce');
 
   // Declare support for WooCommerce pages.
@@ -52,12 +52,12 @@ function your_theme_name_add_woocommerce_support() {
   add_theme_support('wc-product-gallery-slider');
 }
 
-add_action('after_setup_theme', 'your_theme_name_add_woocommerce_support');
+add_action('after_setup_theme', 'HH_name_add_woocommerce_support');
 
 /**
  * Declare support for WooCommerce pages.
  */
-function your_theme_name_add_woocommerce_pages_support() {
+function HH_name_add_woocommerce_pages_support() {
   add_theme_support('woocommerce', array(
     'thumbnail_image_width' => 255,
     'single_image_width'    => 255,
@@ -126,7 +126,7 @@ function your_theme_name_add_woocommerce_pages_support() {
   ));
 }
 
-add_action('after_setup_theme', 'your_theme_name_add_woocommerce_pages_support');
+add_action('after_setup_theme', 'HH_name_add_woocommerce_pages_support');
 
 
 // Add custom 'Age Group' field to WC product general options 

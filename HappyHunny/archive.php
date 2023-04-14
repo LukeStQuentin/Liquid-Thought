@@ -6,7 +6,7 @@
  *
  * @package WordPress
  * @subpackage HappyHunny
- * @since Twenty Twenty-One 1.0
+ * 
  */
 
 get_header();
