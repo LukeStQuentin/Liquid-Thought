@@ -85,6 +85,11 @@ get_header(); ?>
         <div class="quality" style=" background-image:url('<?php echo get_template_directory_uri(); ?>/assets/images/Banner-CTA-1-bg.png'); ">
         <div class="container">
             
+             <div class="quality-top-mob">
+            
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Quality-big-img.jpg" >
+                
+            </div>
             <div class="quality-left">
             <h1><strong>Quality</strong> controlled <strong>branded</strong> kids’ clothing</h1>
                 <p>We know you want to do good- we also know that you want your kid’s clothes to feel good for them. That’s why we prioritise thorough quality control checks on the items sold through our platform.</p>
