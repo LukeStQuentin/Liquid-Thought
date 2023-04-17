@@ -18,17 +18,36 @@
             
             
 			<nav class="site-navigation">
-                <div class="mob-menu-wrap"> <a href="#" class="mob-menu">
-                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-account.png" ></a>
-                         <nav class="primary-menu-mob">
-                    <?php
-                   wp_nav_menu( array(
-                       'theme_location' => 'primary-menu',
-                       'menu_class' => 'menu',
-                       'container' => false,
-                    ) );
-                    ?>
-                </nav></div>
+                <div class="mob-menu-wrap"> 
+                   
+        
+                             <input type="checkbox" id="hamb">
+                    
+                                  <div class="mob-menu-inner-wrap">
+                    
+                        <nav class="primary-menu-mob">
+                            <?php
+                           wp_nav_menu( array(
+                               'theme_location' => 'primary-menu',
+                               'menu_class' => 'menu',
+                               'container' => false,
+                            ) );
+                            ?>
+                        </nav>
+
+                    </div>
+                    
+                             <label class="menu-icon" for="hamb">
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                              <div class="bar"></div>
+                            </label>
+                
+                    
+
+                      
+                
+                </div>
                 
                 <div class="search">
                    <a class="search-button" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon-search.png" ></a> 
